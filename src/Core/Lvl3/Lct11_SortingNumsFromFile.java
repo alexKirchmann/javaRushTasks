@@ -16,7 +16,7 @@ class Lct11_SortingNumsFromFile {
         while (scanner.hasNextInt()){
             arrayList.add(scanner.nextInt());
         }
-
+        scanner.close();
 
         for (int i = 0; i < arrayList.size(); i++) {
             int glass;
@@ -28,6 +28,7 @@ class Lct11_SortingNumsFromFile {
                 }
             }
         }
+
 
         for (int i = 0; i < arrayList.size(); i++) {
             if (arrayList.get(i) % 2 == 0)

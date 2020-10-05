@@ -14,9 +14,6 @@ class Lct8_MovieFactory {
             else break;
         }
 
-
-
-
         /*
 8 Создать переменную movie класса Movie и для каждой введенной строки(ключа):
 8.1 получить объект используя MovieFactory.getMovie и присвоить его переменной movie
@@ -29,13 +26,13 @@ class Lct8_MovieFactory {
 
         static Movie getMovie(String key) {
             Movie movie = null;
-            if ("soapOpera".equals(key)) {
+            if (key.equals("soapOpera")) {
                 movie = new SoapOpera();
             }
-            if ("cartoon".equals(key)) {
+            if (key.equals("cartoon")) {
                 movie = new Cartoon();
             }
-            if ("thriller".equals(key)) {
+            if (key.equals("thriller")) {
                 movie = new Thriller();
             }
             return movie;

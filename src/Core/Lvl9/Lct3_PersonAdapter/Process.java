@@ -27,7 +27,5 @@ public class Process {
         public void close() throws IOException {
             this.fileScanner.close();
         }
-
-
     }
 }

@@ -1,6 +1,6 @@
 package Core.Lvl6.Lct13_FactoryMethodPattern;
 
-class ImageReaderFactory {
+class   ImageReaderFactory {
     static ImageReader getImageReader (ImageTypes type) {
         switch (type) {
             case BMP: return new BmpReader();

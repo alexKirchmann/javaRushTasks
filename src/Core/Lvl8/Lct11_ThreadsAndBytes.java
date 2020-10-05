@@ -25,8 +25,6 @@ public class Lct11_ThreadsAndBytes {
 
 
 
-
-
     static class ReadThread extends Thread {
         private String name;
 

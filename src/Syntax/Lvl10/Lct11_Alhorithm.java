@@ -15,12 +15,6 @@ public class Lct11_Alhorithm {
             nums[i] = Integer.parseInt(reader.readLine());
         }
 
-        /*
-        Arrays.sort(nums);
-        System.out.println(nums[9]);
-        System.out.println(nums[10]);
-        */
-
         sort(nums);
         System.out.println(nums[9]);
         System.out.println(nums[10]);
